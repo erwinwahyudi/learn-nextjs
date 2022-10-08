@@ -1,0 +1,12 @@
+{
+    "editor.language.colorizedBracketPairs": [
+    
+    ],
+    "files.associations": {
+        "*.js": "javascriptreact"
+      },
+      "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+}
