@@ -6,7 +6,7 @@ export default function Layout({ children }) {
         <Navbar />
         <main className="flex-1">
         <div className="container mx-auto">
-          <div className="p-6 text-gray-700 bg-gray-100 rounded-lg shadow-lg"> 
+          <div className="p-6  bg-slate-700 text-slate-50 rounded-lg shadow-lg"> 
             {children } 
           </div>
         </div>

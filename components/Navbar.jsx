@@ -10,12 +10,13 @@ export default function Navbar() {
       </div>
         <nav>
             <ul className="gap-3">
-                <li className="text-white"><Link href="/" >Home</Link></li>
+                <li className="text-white"><Link href="/">Home</Link></li>
                 <li className="text-white"><Link href="/about">About</Link></li>
                 <li className="text-white"><Link href="/blog">Blog</Link></li>
                 <li className="text-white"><Link href="/post/1/2">Slug Post</Link></li>
                 <li className="text-white"><Link href="/blog/add">Push Redirect</Link></li>
                 <li className="text-white"><Link href="/blog/1/comment/2">Dynamic Route</Link></li>
+                <li className="text-white"><Link href="/product">Product</Link></li>
             </ul>
         </nav>
     </aside>
