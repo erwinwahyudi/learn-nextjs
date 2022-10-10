@@ -4,9 +4,8 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className="container mx-auto">
-      <div className="m-6 p-6 shadow-lg rounded-lg bg-gray-100 text-gray-700">
-        <h2 className="font-semibold text-3xl mb-5">
+    <div>
+        <h2 className="mb-5 text-3xl font-semibold">
           Welcome to <span className="text-blue-600">Next.Js</span> with
           tailwindcss
         </h2>
@@ -20,7 +19,6 @@ export default function Home() {
         >
           Learn More
         </button>
-      </div>
     </div>
   );
 }
