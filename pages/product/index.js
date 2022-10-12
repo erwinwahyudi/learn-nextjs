@@ -2,7 +2,9 @@ const Products = ({ products }) => {
   return (
     <div>
         {products.map((item) => (
-            <li>{item.name}</li>
+            <ul key={item.id}>
+                <li>{item.name} - {item.price}</li>
+            </ul>
         ))}
     </div>
   )
@@ -10,9 +12,12 @@ const Products = ({ products }) => {
 
 export default Products;
 
+// implement SSG with getStaticProps
 export const getStaticProps = async () => {
     const response = await fetch('http://localhost:2000/product');
     const data = await response.json();
+
+    // console.log(data);
 
     return {
         props: {

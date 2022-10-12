@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-const add = () => {
+const Add = () => {
     const router = useRouter();
 
     const publish = () => {
@@ -15,4 +15,4 @@ const add = () => {
   )
 }
 
-export default add
+export default Add

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <aside className="bg-slate-700 p-10 w-auto h-3/6 mr-5 rounded-lg shadow-md">
+    <aside className="bg-slate-700 p-10 w-auto h-full mr-5 rounded-lg shadow-md">
       <div class="text-lg mb-5">
         <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
           /erwinwahyudi
